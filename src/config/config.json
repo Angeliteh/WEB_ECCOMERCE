@@ -1,0 +1,48 @@
+{
+  "site": {
+    "title": "Modern Store",
+    "base_url": "https://yourusername.github.io/modern-ecommerce-platform/",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo_width": "150",
+    "logo_height": "33",
+    "logo_text": "Modern Store"
+  },
+
+  "settings": {
+    "search": true,
+    "account": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "system"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "© 2024 Modern Store. All rights reserved."
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Comprar Ahora",
+    "link": "/products"
+  },
+
+  "metadata": {
+    "meta_author": "Modern Store",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Plataforma de e-commerce moderna con los mejores productos y precios"
+  },
+
+  "shopify": {
+    "currencySymbol": "$",
+    "currencyCode": "USD",
+    "collections": {
+      "hero_slider": "hidden-homepage-carousel",
+      "featured_products": "featured-products"
+    }
+  }
+}

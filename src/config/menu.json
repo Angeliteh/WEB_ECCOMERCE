@@ -1,0 +1,59 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Productos",
+      "url": "/products"
+    },
+    {
+      "name": "Páginas",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Nosotros",
+          "url": "/about"
+        },
+        {
+          "name": "Contacto",
+          "url": "/contact"
+        },
+        {
+          "name": "Página 404",
+          "url": "/404"
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Nosotros",
+      "url": "/about"
+    },
+    {
+      "name": "Productos",
+      "url": "/products"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contact"
+    }
+  ],
+  "footerCopyright": [
+    {
+      "name": "Política de Privacidad",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "Términos de Servicio",
+      "url": "/terms-services"
+    }
+  ]
+}
