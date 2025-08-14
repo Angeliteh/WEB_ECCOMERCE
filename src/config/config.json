@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Modern Store",
-    "base_url": "https://yourusername.github.io/modern-ecommerce-platform/",
-    "base_path": "/",
+    "base_url": "https://angeliteh.github.io/WEB_ECCOMERCE/",
+    "base_path": "/WEB_ECCOMERCE/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
