@@ -12,10 +12,13 @@ const { navigation_button, settings } = config;
 // determine if a menu item is active
 const isMenuItemActive = (url: string) => {
   const pathname = Astro.url.pathname;
+  const baseUrl = import.meta.env.BASE_URL;
+  const fullUrl = url === "/" ? baseUrl : baseUrl + url.slice(1);
+
   if (url === "/") {
-    return pathname === url ? "active" : "";
+    return pathname === baseUrl.slice(0, -1) || pathname === baseUrl ? "active" : "";
   }
-  return pathname.startsWith(url) ? "active" : "";
+  return pathname.startsWith(fullUrl.slice(0, -1)) ? "active" : "";
 };
 
 // determine if any child is active
@@ -117,7 +120,7 @@ const isParentActive = (children: any[]) => {
                         {menuItem.children.map((child) => (
                           <li>
                             <a
-                              href={child.url}
+                              href={child.url === "/" ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + child.url.slice(1)}
                               class:list={[
                                 "nav-dropdown-link block",
                                 "py-2 px-3",
@@ -133,7 +136,7 @@ const isParentActive = (children: any[]) => {
                     </>
                   ) : (
                     <a
-                      href={menuItem.url}
+                      href={menuItem.url === "/" ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + menuItem.url.slice(1)}
                       class:list={[
                         "nav-link block",
                         "py-2 px-3 rounded-lg transition-colors",
@@ -153,7 +156,7 @@ const isParentActive = (children: any[]) => {
                 <li class="mt-4 inline-block lg:hidden mr-4 md:mr-6">
                   <a
                     class="btn btn-outline-primary btn-sm"
-                    href={navigation_button.link}
+                    href={navigation_button.link === "/" ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + navigation_button.link.slice(1)}
                   >
                     {navigation_button.label}
                   </a>
@@ -261,7 +264,7 @@ const isParentActive = (children: any[]) => {
                         {menuItem.children.map((child) => (
                           <li>
                             <a
-                              href={child.url}
+                              href={child.url === "/" ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + child.url.slice(1)}
                               class:list={[
                                 "nav-dropdown-link block",
                                 "py-2 px-3 rounded-lg transition-colors",
@@ -277,7 +280,7 @@ const isParentActive = (children: any[]) => {
                     </>
                   ) : (
                     <a
-                      href={menuItem.url}
+                      href={menuItem.url === "/" ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + menuItem.url.slice(1)}
                       class:list={[
                         "nav-link block",
                         "py-2 px-3rounded-lg transition-colors",

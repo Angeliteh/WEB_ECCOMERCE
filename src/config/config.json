@@ -4,9 +4,9 @@
     "base_url": "https://angeliteh.github.io/WEB_ECCOMERCE/",
     "base_path": "/WEB_ECCOMERCE/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "favicon": "/WEB_ECCOMERCE/images/favicon.png",
+    "logo": "/WEB_ECCOMERCE/images/logo.png",
+    "logo_darkmode": "/WEB_ECCOMERCE/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "33",
     "logo_text": "Modern Store"

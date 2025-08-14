@@ -147,7 +147,7 @@ const ProductGrid = ({
               <div className="md:relative overflow-hidden">
                 <img
                   src={
-                    product.featuredImage?.url || "/images/product_image404.jpg"
+                    product.featuredImage?.url || `${import.meta.env.BASE_URL}images/product_image404.jpg`
                   }
                   width={312}
                   height={269}
