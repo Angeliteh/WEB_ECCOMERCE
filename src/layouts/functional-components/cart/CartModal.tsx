@@ -152,7 +152,7 @@ const CartModal: React.FC = () => {
                       </div>
                       <a href={merchandiseUrl.toString()} className="z-30 flex flex-row space-x-4">
                         <div className="relative h-16 w-16 overflow-hidden rounded-md border border-neutral-300 bg-neutral-300">
-                          <img className="h-full w-full object-cover" src={item.merchandise.product.featuredImage?.url || `${import.meta.env.BASE_URL}images/product-1.png`} alt={item.merchandise.title} width={64} height={64} />
+                          <img className="h-full w-full object-cover" src={item.merchandise.product.featuredImage?.url || "/WEB_ECCOMERCE/images/product-1.png"} alt={item.merchandise.title} width={64} height={64} />
                         </div>
                         <div className="flex flex-1 flex-col text-base">
                           <span>{item.merchandise.product.title}</span>

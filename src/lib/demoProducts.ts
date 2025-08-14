@@ -14,14 +14,14 @@ export const demoProducts = [
       maxVariantPrice: { amount: "299.99", currencyCode: "USD" }
     },
     featuredImage: {
-      url: "/images/product-1.png",
+      url: "/WEB_ECCOMERCE/images/product-1.png",
       altText: "Audífonos Inalámbricos Premium",
       width: 500,
       height: 500
     },
     images: [
       {
-        url: "/images/product-1.png",
+        url: "/WEB_ECCOMERCE/images/product-1.png",
         altText: "Audífonos Inalámbricos Premium",
         width: 500,
         height: 500
@@ -59,14 +59,14 @@ export const demoProducts = [
       maxVariantPrice: { amount: "399.99", currencyCode: "USD" }
     },
     featuredImage: {
-      url: "/images/category-1.png",
+      url: "/WEB_ECCOMERCE/images/category-1.png",
       altText: "Smart Fitness Watch",
       width: 500,
       height: 500
     },
     images: [
       {
-        url: "/images/category-1.png",
+        url: "/WEB_ECCOMERCE/images/category-1.png",
         altText: "Smart Fitness Watch",
         width: 500,
         height: 500
@@ -104,14 +104,14 @@ export const demoProducts = [
       maxVariantPrice: { amount: "129.99", currencyCode: "USD" }
     },
     featuredImage: {
-      url: "/images/category-2.png",
+      url: "/WEB_ECCOMERCE/images/category-2.png",
       altText: "Professional Laptop Backpack",
       width: 500,
       height: 500
     },
     images: [
       {
-        url: "/images/category-2.png",
+        url: "/WEB_ECCOMERCE/images/category-2.png",
         altText: "Professional Laptop Backpack",
         width: 500,
         height: 500
@@ -149,14 +149,14 @@ export const demoProducts = [
       maxVariantPrice: { amount: "899.99", currencyCode: "USD" }
     },
     featuredImage: {
-      url: "/images/product-1.png",
+      url: "/WEB_ECCOMERCE/images/product-1.png",
       altText: "Smartphone Pro 128GB",
       width: 500,
       height: 500
     },
     images: [
       {
-        url: "/images/product-1.png",
+        url: "/WEB_ECCOMERCE/images/product-1.png",
         altText: "Smartphone Pro 128GB",
         width: 500,
         height: 500
@@ -187,7 +187,7 @@ export const demoCollections = [
     handle: "electronics",
     title: "Electrónicos",
     description: "Los últimos dispositivos electrónicos y gadgets",
-    image: { url: "/images/category-1.png", altText: "Electrónicos" },
+    image: { url: "/WEB_ECCOMERCE/images/category-1.png", altText: "Electrónicos" },
     seo: { title: "Electrónicos", description: "Los últimos dispositivos electrónicos" },
     updatedAt: "2024-01-01T00:00:00Z"
   },
@@ -196,7 +196,7 @@ export const demoCollections = [
     handle: "featured-products",
     title: "Productos Destacados",
     description: "Nuestros productos más vendidos",
-    image: { url: "/images/category-2.png", altText: "Productos Destacados" },
+    image: { url: "/WEB_ECCOMERCE/images/category-2.png", altText: "Productos Destacados" },
     seo: { title: "Productos Destacados", description: "Nuestros productos más vendidos" },
     updatedAt: "2024-01-01T00:00:00Z"
   }
